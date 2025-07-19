@@ -1,0 +1,26 @@
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  # Logo/image configuration
+  image: assets/icons/icon.png
+  
+  # Background color (use your bright yellow theme)
+  color: "#FFD404"
+  
+  # Dark mode configuration
+  image_dark: assets/icons/icon.png
+  color_dark: "#FFD404"
+  
+  # Platform specific settings
+  android: true
+  android_gravity: center
+  
+  # Android 12+ adaptive icon configuration
+  android_12:
+    image: assets/icons/icon.png
+    icon_background_color: "#FFD404"  # This removes white border on Android 12+
+    
+  ios: true
+  ios_content_mode: center
+  
+  web: true
+  web_image_mode: center
