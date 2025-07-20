@@ -50,6 +50,7 @@ dependencies:
   flutter_launcher_icons: ^0.14.4
   flutter_native_splash: ^2.3.6
   url_launcher: ^6.1.11
+  syncfusion_flutter_sliders: ^26.1.35
 
 dev_dependencies:
   flutter_test:
