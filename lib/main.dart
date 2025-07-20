@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
-import 'controllers/compute_controller.dart';
 import 'screens/landing_screen.dart';
 import 'utils/app_theme.dart';
 
@@ -28,16 +26,12 @@ class LambdaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ComputeController()),
-      ],
-      child: MaterialApp(
+    return  MaterialApp(
         title: 'Lambda',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
         home: const LandingScreen(),
-      ),
-    );
+      );
+    
   }
 }
