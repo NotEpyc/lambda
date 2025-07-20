@@ -827,16 +827,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               'YOUR JOBS',
 
               style: TextStyle(
-
-                fontSize: responsive.subtitleSize,
-
+                fontSize: responsive.subtitleSize * 0.9,
                 fontWeight: FontWeight.w600,
-
                 fontFamily: 'Manrope',
-
                 color: Colors.black,
-
               ),
+
 
             ),
 
@@ -1030,15 +1026,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               'YOUR GPU NODES',
 
               style: TextStyle(
-
-                fontSize: responsive.subtitleSize,
-
+                fontSize: responsive.subtitleSize * 0.9,
                 fontWeight: FontWeight.w600,
-
                 fontFamily: 'Manrope',
-
                 color: Colors.black,
-
               ),
 
             ),
